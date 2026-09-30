@@ -1,6 +1,6 @@
 # Implementation roadmap
 
-This roadmap is the next phase after the visual canvas and inactive n8n JSON starter were prepared. The current repository contains no connected or running n8n automation.
+This roadmap follows the visual n8n workflow case study. The importable implementation package is not included in this public repository; see BrandOps for access options. The current repository contains no connected or running n8n automation.
 
 ## Phase 0 — Confirm the operating contract
 

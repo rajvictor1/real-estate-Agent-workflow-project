@@ -2,17 +2,17 @@
 
 ## One-line project description
 
-I designed a state-based real estate lead-management workflow that connects multi-source enquiry capture, AI-assisted qualification, WhatsApp follow-up, sales ownership, failure handling, and measurement. I built the case-study website and an inactive n8n workflow starter; the provider integrations and live execution are next steps, not completed work.
+I designed a state-based real estate lead-management workflow that connects multi-source enquiry capture, AI-assisted qualification, WhatsApp follow-up, sales ownership, failure handling, and measurement. I built the case-study website and published a visual n8n workflow design; the implementation package, provider integrations, and live execution are separate next steps.
 
 ## 45-second version
 
-“Real estate leads arrive through paid social, a website, and search ads, and the operational risk is losing context or following up inconsistently. I translated the desired process into one shared lead-state model. The design includes a one-minute first call target, a bounded retry policy, structured qualification, WhatsApp with full history, a 30-minute chat hold, Hot/Warm/Cold routing, same-day sales ownership for Hot leads, and error/reporting controls. I built and deployed the recruiter-facing project site on Vercel and added inactive n8n JSON workflow starters to a public GitHub repository. The calling/WhatsApp/Sheets integrations are not live; the next milestone is a controlled MVP with synthetic data and clear acceptance tests.”
+“Real estate leads arrive through paid social, a website, and search ads, and the operational risk is losing context or following up inconsistently. I translated the desired process into one shared lead-state model. The design includes a one-minute first call target, a bounded retry policy, structured qualification, WhatsApp with full history, a 30-minute chat hold, Hot/Warm/Cold routing, same-day sales ownership for Hot leads, and error/reporting controls. I built and deployed the recruiter-facing project site on Vercel and published a visual n8n workflow case study and step-by-step explanation; the implementation package is accessed through BrandOps. The calling/WhatsApp/Sheets integrations are not live; the next milestone is a controlled MVP with synthetic data and clear acceptance tests.”
 
 ## What is implemented versus designed
 
-**Built:** static responsive case-study site (HTML/CSS/JavaScript), Vercel deployment, public GitHub repository, screenshot-based specification, visual n8n canvas, inactive n8n JSON starter workflows, step-by-step guide, architecture, roadmap, and interview narrative.
+**Built:** static responsive case-study site (HTML/CSS/JavaScript), Vercel deployment, public GitHub repository, screenshot-based specification, visual n8n canvas, step-by-step workflow explanation, BrandOps implementation-access link, architecture, roadmap, and interview narrative.
 
-**Not connected or executed:** Google Sheets operations, AI voice calls, WhatsApp Business messaging, source adapters, reporting actions, and end-to-end lead handling. The n8n JSONs use No Operation placeholders for these integrations.
+**Not connected or executed:** Google Sheets operations, AI voice calls, WhatsApp Business messaging, source adapters, reporting actions, and end-to-end lead handling. The public workflow visual marks these integrations as placeholders.
 
 **Not measured:** response-time improvement, contact rate, visits, conversion lift, revenue, cost reduction, or automation savings.
 

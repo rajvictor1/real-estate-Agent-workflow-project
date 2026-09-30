@@ -1,2 +1,6 @@
 .vercel
 .DS_Store
+
+# Keep importable workflow packages out of the public portfolio repository
+/workflows/*.json
+/public/downloads/*.json
