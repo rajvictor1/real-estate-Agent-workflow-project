@@ -38,8 +38,8 @@ Do not describe n8n, AI calling, WhatsApp automation, or Sheets integration as b
 
 ## Repository map
 
-- `public/index.html` — public, anonymized recruiter case study.
-- `public/flow-diagram.html` — standalone, screenshot-faithful Flow Diagram tab.
+- `public/index.html` — the one-page public case study. Its navigation jumps to the embedded Flow Diagram, plain-language explanation, technology, and project-detail sections on the same URL.
+- `public/flow-diagram.html` — retained standalone diagram route; the main site now uses the embedded diagram so visitors can review the full project on one page.
 - `public/docs/` — sanitized recruiter-facing copies served by Vercel.
 - `WORKFLOW-STEPS.md` — detailed process specification and operating steps.
 - `SCREENSHOT-WORKFLOW.md` — consolidated workflow diagram with source-specific details.
