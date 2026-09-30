@@ -1,6 +1,6 @@
 # Implementation roadmap
 
-This roadmap is a proposed future build. The current repository contains the case-study website and workflow documentation, not a live n8n automation.
+This roadmap is the next phase after the visual canvas and inactive n8n JSON starter were prepared. The current repository contains no connected or running n8n automation.
 
 ## Phase 0 — Confirm the operating contract
 

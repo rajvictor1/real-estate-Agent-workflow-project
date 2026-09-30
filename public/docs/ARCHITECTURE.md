@@ -5,7 +5,7 @@
 This project has two distinct systems:
 
 1. **Portfolio website — implemented.** Static HTML, CSS, and JavaScript hosted on Vercel. It presents an anonymized project narrative and does not process real leads.
-2. **Lead-management automation — designed, not implemented.** Proposed n8n workflow connecting approved lead sources, a shared record, calling/WhatsApp services, sales ownership, and reporting.
+2. **Lead-management automation — starter blueprint prepared, not connected.** Inactive n8n JSON files lay out triggers, Code/IF/Wait nodes, and integration placeholders for lead sources, a shared record, call/WhatsApp services, sales ownership, and reporting.
 
 Vercel hosts the case-study site; it is not the proposed workflow orchestration layer.
 
@@ -21,21 +21,21 @@ Google Ads ──────┘                                  │
                                                    └─> event log + failure alert + 1 PM report
 ```
 
-The diagram is a proposed design. Providers, authentication, exact integration contracts, and data retention are not chosen.
+The diagram is a proposed design. The n8n JSON blueprints contain only core transformation/routing nodes and No Operation placeholders. Providers, authentication, exact integration contracts, and data retention are not chosen.
 
 ## Responsibilities
 
 | Component | Responsibility | Status |
 |---|---|---|
 | Lead source adapters | Receive Meta, website, and Google Ads submissions with attribution | Proposed |
-| n8n | Orchestrate triggers, idempotent steps, delays, branching, retries, and escalation | Proposed |
+| n8n | Workflow orchestration design | Inactive starter JSON prepared; providers/credentials and execution not configured |
 | Lead record | Store identity, source, state, attempt count, history, hold, next action, and owner | Specified; Google Sheets is the initial candidate |
 | Calling service | First attempt, unanswered retries, structured qualification result | Provider and integration TBD |
 | WhatsApp service | Inbound conversation, approved replies/media, site booking, human handoff | Provider and integration TBD |
 | Sales owner | Take Hot leads and negotiated/requested human conversations | Process specified; operational routing TBD |
 | Monitoring | Error notification and daily leads/calls/visits report | Requirements specified; implementation TBD |
 | Vercel | Serve this static recruiter case-study site | Implemented |
-| GitHub | Store code and project documentation privately | Implemented |
+| GitHub | Store code and project documentation | Public repository by owner request |
 
 ## State model
 
